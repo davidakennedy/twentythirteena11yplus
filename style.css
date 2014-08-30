@@ -1,0 +1,327 @@
+/*
+Theme Name:     Twenty Thirteen A11y Plus
+Theme URI:      http://github.com/davidakennedy/
+Description:    A simple child theme for Twenty Thirteen with small tweaks to make your favorite theme more accessible.
+Author:         David A. Kennedy
+Author URI:     http://davidakennedy.com/
+Template:       twentythirteen                           
+Version:        0.1.0
+
+Child themes are awesome! Read more here: http://codex.wordpress.org/Child_Themes
+*/
+
+/* Reset */
+[tabindex="-1"]:focus {
+	outline: thin dotted #130201;
+}
+
+body {
+	color: #130201;
+}
+
+a {
+	text-decoration: underline;
+}
+
+a:focus {
+	outline: thin solid;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 48px;
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 30px;
+	font-size: 1.875rem;
+}
+
+h3 {
+	font-size: 22px;
+	font-size: 1.375rem;
+}
+
+h4 {
+	font-size: 20px;
+	font-size: 1.25rem;
+}
+
+h5 {
+	font-size: 18px;
+	font-size: 1.125rem;
+}
+
+h6 {
+	font-size: 16px;
+	font-size: 1rem;
+}
+
+pre {
+	font-size: 14px;
+	font-size: 0.875rem;
+}
+
+blockquote {
+	font-size: 18px;
+	font-size: 1.125rem;
+}
+
+blockquote cite,
+blockquote small {
+	font-size: 14px;
+	font-size: 0.875rem;
+}
+
+table {
+	font-size: 14px;
+	font-size: 0.875rem;
+}
+
+caption {
+	font-size: 16px;
+	font-size: 1rem;
+}
+
+/* Repeatable Patterns */
+.screen-reader-text:focus {
+	background-color: #220e10;
+	color: #fff;
+	font-size: 14px;
+	font-size: 0.875rem;
+}
+
+input,
+textarea {
+	color: #130201;
+}
+
+.wp-caption .wp-caption-text,
+.entry-caption,
+.gallery-caption {
+	font-size: 18px;
+	font-size: 1.125rem;
+}
+
+/* Site Header */
+.site-header .home-link {
+	color: #130201;
+}
+
+.site-title {
+	font-size: 60px;
+	font-size: 3.75rem;
+}
+
+.site-description {
+	font-size: 24px;
+	font-size: 1.5rem;
+}
+
+/* Navigation */
+.nav-menu li a {
+	color: #130201;
+	font-size: 15px;
+	font-size: 0.9375rem;
+}
+
+ul.nav-menu ul a:hover,
+.nav-menu ul ul a:hover,
+ul.nav-menu ul a:focus,
+.nav-menu ul ul a:focus {
+	background-color: #ce4c11;
+}
+
+/* Content */
+/* Entry Header */
+.entry-title a {
+	color: #130201;
+	text-decoration: none;
+}
+
+.entry-title a:hover,
+.entry-title a:focus {
+	text-decoration: underline;
+}
+
+/* Entry Meta */
+.entry-meta {
+	font-size: 14px;
+	font-size: 0.875rem;
+}
+
+/* Entry Content */
+.entry-content blockquote {
+	font-size: 24px;
+	font-size: 1.5rem;
+}
+
+.entry-content blockquote cite,
+.entry-content blockquote small {
+	font-size: 16px;
+	font-size: 1rem;
+}
+
+/* Page links */
+.page-links {
+	font-size: 16px;
+	font-size: 1rem;
+}
+
+.format-status .entry-content .page-links a,
+.format-gallery .entry-content .page-links a,
+.format-chat .entry-content .page-links a,
+.format-quote .entry-content .page-links a,
+.page-links a {
+	background: #e62716;
+	border: 1px solid #e62716;
+}
+
+.format-gallery .entry-content .page-links a:hover,
+.format-audio .entry-content .page-links a:hover,
+.format-status .entry-content .page-links a:hover,
+.format-video .entry-content .page-links a:hover,
+.format-chat .entry-content .page-links a:hover,
+.format-quote .entry-content .page-links a:hover,
+.page-links a:hover,
+.format-gallery .entry-content .page-links a:focus,
+.format-audio .entry-content .page-links a:focus,
+.format-status .entry-content .page-links a:focus,
+.format-video .entry-content .page-links a:focus,
+.format-chat .entry-content .page-links a:focus,
+.format-quote .entry-content .page-links a:focus,
+.page-links a:focus {
+	background: #fff;
+	color: #e62716;
+}
+
+/* Galleries */
+.gallery-caption {
+	font-size: 14px;
+	font-size: 0.875rem;
+}
+
+/* Post Formats */
+/* Audio */
+.format-audio {
+	background-color: #ce4c11;
+}
+
+.format-audio .entry-content a,
+.format-audio .entry-meta a,
+.format-audio .entry-content a:hover,
+.format-audio .entry-meta a:hover {
+	color: #fff;
+}
+
+.format-audio .entry-content:before {
+	font-size: 64px;
+	font-size: 4rem;
+}
+
+/* Chat */
+.format-chat .entry-title {
+	font-size: 28px;
+	font-size: 1.75rem;
+}
+
+.format-chat .chat .chat-timestamp {
+	font-size: 12px;
+	font-size: 0.75rem;
+}
+
+/* Gallery */
+.format-gallery .entry-title {
+	font-size: 50px;
+	font-size: 3.125rem;
+}
+
+/* Image */
+.format-image .entry-title {
+	font-size: 28px;
+	font-size: 1.75rem;
+}
+
+/* Link */
+.format-link .entry-title {
+	font-size: 20px;
+	font-size: 1.25rem;
+}
+
+/* Quote */
+.format-quote .entry-content blockquote {
+	font-size: 28px;
+	font-size: 1.75rem;
+}
+
+.format-quote .entry-content a,
+.format-quote .entry-meta a,
+.format-quote .linked {
+	color: #e62716;
+}
+
+.format-quote .entry-content cite a {
+	text-decoration: none;
+}
+
+.format-quote .entry-content cite a:hover {
+	border-bottom: 1px solid #fff;
+	text-decoration: none;
+}
+
+/* Status */
+.format-status .entry-content {
+	font-size: 24px;
+	font-size: 1.5rem;
+}
+
+/* Video */
+.format-video {
+	background-color: #ce4c11;
+}
+
+.format-video .entry-content a,
+.format-video .entry-meta a,
+.format-video .entry-content a:hover,
+.format-video .entry-meta a:hover {
+	color: #fff;
+}
+
+.format-video .entry-title {
+	font-size: 50px;
+	font-size: 3.125rem;
+}
+
+/* Post/Paging Navigation */
+.paging-navigation .meta-nav {
+	background-color: #e62716;
+}
+
+/* Media Queries */
+@media (max-width: 643px) {
+	.menu-toggle,
+	.menu-toggle:hover,
+	.menu-toggle:focus,
+	.menu-toggle:active {
+		color: #130201;
+	}
+
+	.toggled-on .nav-menu li > ul a {
+		color: #130201;
+	}
+
+	.toggled-on .nav-menu li:hover > a,
+	.toggled-on .nav-menu .children a {
+		color: #130201;
+	}
+
+	.toggled-on .nav-menu > li a:hover,
+	.toggled-on .nav-menu > ul a:hover {
+		background-color: #ce4c11;
+	}
+}
