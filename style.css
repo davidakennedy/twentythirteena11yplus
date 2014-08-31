@@ -298,12 +298,121 @@ ul.nav-menu ul a:focus,
 }
 
 /* Post/Paging Navigation */
+.post-navigation {
+	font-size: 20px;
+	font-size: 1.25rem;
+}
+
+.paging-navigation a {
+	font-size: 22px;
+	font-size: 1.375rem;
+}
+
 .paging-navigation .meta-nav {
 	background-color: #e62716;
+	font-size: 26px;
+	font-size: 1.625rem;
+}
+
+.archive-meta {
+	font-size: 16px;
+	font-size: 1rem;
+}
+
+/* Search Results/No posts */
+.page-title {
+	font-size: 30px;
+	font-size: 1.875rem;
+}
+
+/* Comments */
+.comment-author .fn,
+.comment-author .url,
+.comment-reply-link,
+.comment-reply-login {
+	font-size: 14px;
+	font-size: 0.875rem;
+}
+
+.comment-meta,
+.comment-meta a {
+	font-size: 13px;
+	font-size: 0.8125rem;
+}
+
+.ping-meta {
+	font-size: 13px;
+	font-size: 0.8125rem;
+}
+
+.comment-reply-title {
+	font-size: 28px;
+	font-size: 1.75rem;
+}
+
+.form-allowed-tags,
+.form-allowed-tags code {
+	font-size: 12px;
+	font-size: 0.75rem;
+}
+
+.form-allowed-tags code {
+	font-size: 10px;
+	font-size: 0.625rem;
+}
+
+.comment-navigation {
+	font-size: 20px;
+	font-size: 1.25rem;
+}
+
+.no-comments {
+	font-size: 20px;
+	font-size: 1.25rem;
+}
+
+/* Widgets */
+.widget {
+	font-size: 14px;
+	font-size: 0.875rem;
+}
+
+.widget .widget-title {
+	font-size: 20px;
+	font-size: 1.25rem;
+}
+
+/* Calendar Widget */
+.widget_calendar caption {
+	font-size: 14px;
+	font-size: 0.875rem;
+}
+
+/* Site Footer */
+.site-footer {
+	font-size: 14px;
+	font-size: 0.875rem;
 }
 
 /* Media Queries */
+@media (max-width: 1069px) {
+	.error404 .page-title {
+		font-size: 24px;
+		font-size: 1.5rem;
+	}
+}
+@media (max-width: 767px) {
+	.site-title {
+		font-size: 36px;
+		font-size: 2.25rem;
+	}
+}
 @media (max-width: 643px) {
+	.site-title {
+		font-size: 30px;
+		font-size: 1.875rem;
+	}
+
 	.menu-toggle,
 	.menu-toggle:hover,
 	.menu-toggle:focus,
@@ -323,5 +432,26 @@ ul.nav-menu ul a:focus,
 	.toggled-on .nav-menu > li a:hover,
 	.toggled-on .nav-menu > ul a:hover {
 		background-color: #ce4c11;
+	}
+
+	.entry-title,
+	.format-chat .entry-title,
+	.format-image .entry-title,
+	.format-gallery .entry-title,
+	.format-video .entry-title {
+		font-size: 22px;
+		font-size: 1.375rem;
+	}
+
+	.format-quote blockquote,
+	.format-status .entry-content {
+		font-size: 18px;
+		font-size: 1.125rem;
+	}
+
+	.format-quote blockquote small,
+	.format-quote blockquote cite {
+		font-size: 13px;
+		font-size: 0.8125rem;
 	}
 }

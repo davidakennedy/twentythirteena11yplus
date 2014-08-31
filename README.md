@@ -2,6 +2,14 @@
 
 A simple child theme for Twenty Thirteen with small tweaks to make your favorite theme more accessible.
 
+## What this Theme Does
+
+* Adds an underline to links so they do not rely on color alone.
+* Enhances the `:focus` style on links so the visual style is stronger than the standard dotted border.
+* Sizes fonts with the `rem` unit (with a `px` fallback for unsupported browsers) so user's custom font sizes are respected.
+* Changes the default black text to be slightly darker to work with new burnt orange color so main colors meet WCAG 2.0 AA standard.
+* Changes burnt orange color to be slightly darker to work with both back text and white text so main colors meet WCAG 2.0 AA standard.
+
 ## Use this Theme
 
 First things first: [know the difference](http://en.support.wordpress.com/com-vs-org/) between WordPress.com and WordPress.org.
