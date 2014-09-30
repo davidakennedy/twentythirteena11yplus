@@ -394,6 +394,16 @@ ul.nav-menu ul a:focus,
 	font-size: 0.875rem;
 }
 
+/* Callout */
+.callout {
+	background: #f7f5e7;
+	border: 1px solid #e8e5ce;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 1em;
+}
+
 /* Media Queries */
 @media (max-width: 1069px) {
 	.error404 .page-title {
